@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<header>
+  <h2 style="font-family:Bernard MT Condensed;font-size:45px">Ikaum Bawa</h2>
+<h3 style="font-family:Bahnschrift Light Condensed;font-size:39px"> LIVE . WORK . TRAVEL </H3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+
+<center>
+       <li><a href="website.html">HOME</a></li>
+<p></p>
+      <li><a href="Blogs.html">BLOG</a></li>
+<p></P>
+      <li><a href="Travel.html">TRAVEL</a></li>
+<p></P>
+      <li><a href="Contact.html">CONTACT</a></li>
+<p></P>
+      <li><a href="Ikaum Bawa Resume.pdf">RESUME</a></li>
+<p></P>
+
+<img src="IMG-1388.jpg" " width="500" height="310">
+</center>
+    </ul>
+  </nav>
+  
+  <article>
+<Center>
+<h1 style="font-family:Ink Free;font-size:25px"> About </h1>
+<h2 style="font-family:Ink Free;font-size:23px" > LET ME INTRODUCE MYSELF </h2>
+  <p style="text-align:center;">Ikaum's intellectually curious, team player and resilient nature drives his passion for business and problem solving. <br>
+As a rising junior at Bentley university rated#10 as the best business schools by Bloomberg.Ikaum is pursuing a bachelor of science in corporate finance, with a minor in international relations.<br>
+ His work experience includes interning at a hedge fund in UK, fastest growing NBFC in India, a wealth management firm in India and one of the biggest spring manufacturing company of the world based in India.These experiences have helped ikaum look at finance through a global lens and develop his communication, analytical, multitasking and time management skills. Ikaum is always looking for mentorship and any advise on career. He is looking for an opportunity in the field of Finance or consulting to continue his drive to solve problems by bringing in a unique perspective.</p>
+</center>
+  </article>
+</section>
+
+<footer>
+  <p>"For me life is continuously being hungry. The meaning of life is not simply to exist, to survive, but to move ahead, to go up, to achieve, to conquer" - Arnold Schwarzenegger </p>
+</footer>
+
+</body>
+</html>
