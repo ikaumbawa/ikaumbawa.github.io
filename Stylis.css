@@ -1,0 +1,62 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F0F8FF;
+}
+
+header{
+    width: 100%;
+}
+header nav{
+    width:90%
+    max-width: 1000px;
+    margin:20px auto;
+    background:#024959;
+}
+.menu_bar {
+    display: none;
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style:none;
+}
+
+header nav ul li{
+        float: left;
+}
+
+header nav ul li a {
+    color: grey;
+    padding:20px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #CC712C
+}
+
+section {
+    padding: 20px;
+}
+
+@media screen  and (max-width:800px) {
+    header nav {
+        width:80%;
+        height:100%;
+        margin:0;
+        position: fixed;
+    }
+header nav ul li {
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+}
+
+
+
+}
