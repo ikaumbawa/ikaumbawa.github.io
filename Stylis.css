@@ -17,6 +17,10 @@ header nav{
     background:#000000;
 }
 
+.menu_bar {
+    display: none;
+}
+
 header nav ul {
     overflow: hidden;
     list-style:none;
