@@ -36,6 +36,7 @@ header nav ul li a {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 header nav ul li a:hover {
