@@ -36,6 +36,7 @@ header nav ul li a {
     color: #FFFFFF;
     padding:20px;
     display: block;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
