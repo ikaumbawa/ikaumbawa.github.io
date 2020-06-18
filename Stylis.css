@@ -90,7 +90,7 @@ header nav ul li {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #708090;
   color: white;
 }
 
