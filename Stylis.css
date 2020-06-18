@@ -13,7 +13,7 @@ header{
     width: 100%;
 }
 header nav{
-    width:80%
+    width:90%
     max-width: 1000px;
     margin:20px auto;
     background:#000000;
@@ -34,7 +34,7 @@ header nav ul li{
 
 header nav ul li a {
     color: #FFFFFF;
-    padding:40px;
+    padding:20px;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -49,13 +49,18 @@ header nav ul li a:hover {
 section {
     padding: 20px;
 }
-@media screen  
+@media screen  and (max-width:800px) {
     header nav {
-        width:100%;
+        width:80%;
         height:100%;
         margin:0;
-        position: relative;
+        position: fixed;
     }
+header nav ul li {
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+}
 
 
 }
