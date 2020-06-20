@@ -42,8 +42,6 @@ header nav ul li a:hover {
 
 section {
     padding: 20px;
-    margin-left: 250px;
-  margin-rigt: 250px;
 }
 
 @media screen  and (max-width:800px) {
@@ -82,7 +80,6 @@ header nav ul li {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 19px;
-    margin-left: 250px;
 }
 
 /* Change the color of links on hover */
