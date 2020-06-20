@@ -77,10 +77,9 @@ header nav ul li {
   display: block;
   color: #FFFFFF;
   text-align: center;
-  padding: 0px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 19px;
-  Margin-left:200px;
 }
 
 /* Change the color of links on hover */
