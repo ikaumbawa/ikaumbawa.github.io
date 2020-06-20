@@ -42,6 +42,8 @@ header nav ul li a:hover {
 
 section {
     padding: 20px;
+    margin-left: 250px;
+  margin-rigt: 250px;
 }
 
 @media screen  and (max-width:800px) {
