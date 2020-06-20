@@ -7,6 +7,10 @@ body {
     background: #FFFAFA;
 }
 
+p {
+      margin-left: 250px;
+  margin-right:250px;
+}
 header{
     width: 100%;
 }
