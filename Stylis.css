@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #F5F5F5;
+    background: #F8F8F8;
 }
 
 p {
@@ -18,7 +18,7 @@ header nav{
     width:80%
     max-width: 1000px;
     margin:50px auto;
-    background:#D0D0D0;
+    background:	#F8F8F8;
 }
 .menu_bar {
     display: none;
@@ -41,7 +41,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #D0D0D0
+    background: #F8F8F8
 }
 
 section {
