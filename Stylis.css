@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #F8F8F8;
+    background:#F8F8F8;
 }
 
 header{
@@ -84,13 +84,13 @@ header nav ul li {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #F8F8F8;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #D0D0D0;
+  background-color: #F8F8F8;
   color: white;
 }
 
