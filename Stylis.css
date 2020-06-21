@@ -81,13 +81,13 @@ header nav ul li {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #F8F8F8;
+  background-color: #ececec;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #F8F8F8;
+  background-color: #ececec;
   color: white;
 }
 
