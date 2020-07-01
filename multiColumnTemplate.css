@@ -193,7 +193,6 @@ header nav ul li {
 }
 .secondary_header ul li:hover {
     color: #717070;
-    cursor: pointer;
 }
 .left_article {
     background-color: #F8F8F8;
